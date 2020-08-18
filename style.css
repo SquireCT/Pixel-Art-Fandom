@@ -1,0 +1,59 @@
+body,
+html{ 
+    background: url(coasters22.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+.darken {
+    background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(coasters22.png);
+  }
+hr {
+    border: solid rgb(51, 50, 50);
+    border-radius: 20px;
+    max-width: 5rem;
+}
+h1 {
+    color: rgb(245, 245, 245);
+    text-shadow: black 4px 4px 4px;
+    line-height: 1.3;
+    font-size: 2rem;
+}
+.buffer {
+    height: 2rem;
+  }
+  
+.row {
+    width: 100%;
+
+}
+.btn {
+    font-weight: 400;
+    border-radius: 300px;
+    transition: all 1s;
+}
+.btn-dark{
+    border: ridge 3px lightgray;
+    background-color: rgb(31, 31, 31);
+    color: rgb(199, 199, 199);
+}
+.btn-dark:hover {
+    background-color: rgb(65, 64, 64);
+    color: rgb(226, 226, 226);
+    border-color: lightgray;
+    transform: scale(1.1);
+}
+.btn-start {
+    padding: .8rem 1.5rem;
+}
+.btn-start
